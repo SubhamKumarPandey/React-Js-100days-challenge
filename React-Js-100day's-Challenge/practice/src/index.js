@@ -11,3 +11,15 @@ import { ReactDOM } from "react-dom";
 //var h1=document.createElement("h1");
 //h1.innerHTML="Hello World!!";
 //document.getElementById("root").appendChild(h1);
+
+//Type-4 to render multiple JSX element
+ReactDOM.render(
+    <div>
+        <h1>
+            Hi 
+        </h1>
+        <p>
+            this is subham how are you all doing.
+        </p>
+    </div>
+)
