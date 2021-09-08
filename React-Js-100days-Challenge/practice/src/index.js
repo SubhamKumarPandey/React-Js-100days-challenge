@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react-dom";
+import ReactDOM from "react-dom";
 
 //Type-1
 //ReactDOM.render( < h1 > Hello World!! < /h1>, document.getElementById("root"))
@@ -42,3 +42,11 @@ ReactDOM.render(
     </React.Fragment>
     ,document.getElementById("root")
 );*/
+ReactDOM.render(
+    <>
+    <h1> Hi there</h1>,
+        <p> How are you all doing </p>,
+        <h1>hope for best</h1>
+    </>,
+    document.getElementById("root")
+);
