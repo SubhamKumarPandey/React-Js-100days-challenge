@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
 //Type-1
 //ReactDOM.render( < h1 > Hello World!! < /h1>, document.getElementById("root"))
@@ -41,7 +42,7 @@ ReactDOM.render(
         <h1>hope for best</h1>
     </React.Fragment>
     ,document.getElementById("root")
-);*/
+);
 ReactDOM.render(
     <>
     <h1> Hi there</h1>,
@@ -49,4 +50,18 @@ ReactDOM.render(
         <h1>hope for best</h1>
     </>,
     document.getElementById("root")
+);
+*/
+//Epressions
+//usees of css in react
+ReactDOM.render(
+<>
+<h1 className="heading">Gola Vertos!!</h1>
+<div className="img_div">
+    <img src="https://picsum.photos/id/237/200/300" alt="random images" />
+    <img src="https://picsum.photos/id/237/200/300" alt="random images" />
+    <img src="https://picsum.photos/id/237/200/300" alt="random images" />
+</div>
+</>,
+document.getElementById("root")
 );
