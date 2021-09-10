@@ -54,9 +54,17 @@ ReactDOM.render(
 */
 //Epressions
 //usees of css in react
+
+const heading = {
+    color: 'bisque',
+    textAlign: 'center',
+    margin: '70px 0px',
+    fontWeight: 'bold',
+    textTtransform: 'capitalize',
+};
 ReactDOM.render(
 <>
-<h1 className="heading">Gola Vertos!!</h1>
+<h1 style={heading}>Gola Vertos!!</h1>
 <div className="img_div">
     <img src="https://picsum.photos/id/237/200/300" alt="random images" />
     <img src="https://picsum.photos/id/237/200/300" alt="random images" />
